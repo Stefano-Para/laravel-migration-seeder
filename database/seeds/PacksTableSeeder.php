@@ -13,8 +13,7 @@ class PacksTableSeeder extends Seeder
     public function run()
     {
         $arrayPack = config('pack');
-
-        
+  
         foreach ($arrayPack as $item) {
             // creo oggetto, istanza della classe Pack
             $pack = new Pack();
@@ -30,6 +29,5 @@ class PacksTableSeeder extends Seeder
             // salvo nel DB
             $pack->save();
         }
-
     }
 }

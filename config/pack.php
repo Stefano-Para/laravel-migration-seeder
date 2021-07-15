@@ -1,4 +1,5 @@
 <?php
+
 $data = [
     [
         "destination" => "Genowa",
@@ -19,3 +20,5 @@ $data = [
         "price" => "3000"
     ],
 ];
+
+return $data;
